@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator project</title>
+  <!-- bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <!-- css  -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <section class="container w-100 vh-100 pt-3">
+    <header class="text-center">
+      <h1 class="lead heading">Calculator</h1>
+    </header>
+
+
+    <div class="w-50 my-2 mx-auto text-center p-5 border glass">
+
+      <div class="w-100 d-flex flex-column justify-content-center align-items-center row gap-2  my-0 mx-auto ">
+
+        <input type="text" id="display" class="form-control mb-2 display" readonly>
+
+        <div class="w-100 d-flex justify-content-center row gap-2">
+          <button class="rounded-4 col p-2 clear  "><h2>C</h2></button>
+          <button class="rounded-4 col-md-3 p-2 delete"><i class="bi bi-backspace"></i></button>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center  row gap-2">
+          <button class="rounded-4 col p-2 number" value="."> <h2>.</h2></button>
+          <button class="rounded-4 col p-2 square" value="square"><h2>x²</h2></button>
+          <button class="rounded-4 col p-2 cube" value="cube"><h2>x³</h2></i></button>
+          <button class="rounded-4 col-md-3 p-2 operator" value="/"><h2>/</h2></button>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center  row gap-2">
+          <button class="rounded-4 col p-2 number" value="7"> <h2>7</h2></button>
+          <button class="rounded-4 col p-2 number" value="8"> <h2>8</h2></button>
+          <button class="rounded-4 col p-2 number" value="9"> <h2>9</h2></button>
+          <button class="rounded-4 col-md-3 p-2 operator" value="*"><h2>*</h2></button>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center  row gap-2">
+          <button class="rounded-4 col p-2 number" value="4"> <h2>4</h2></button>
+          <button class="rounded-4 col p-2 number" value="5"><h2>5</h2></button>
+          <button class="rounded-4 col p-2 number" value="6"> <h2>6</h2></button>
+          <button class="rounded-4 col-md-3 p-2 operator" value="-"> <h2>-</h2></button>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center  row gap-2">
+          <button class="rounded-4 col p-2 number" value="1"> <h2>1</h2></button>
+          <button class="rounded-4 col p-2 number" value="2"><h2>2</h2></button>
+          <button class="rounded-4 col p-2 number" value="3"> <h2>3</h2></button>
+          <button class="rounded-4 col-md-3 p-2 operator" value="+"> <h2>+</h2></button>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center  row gap-2">
+          <button class="col p-2 number rounded-4" value="0"> <h2>0</h2></button>
+          <button class="col-md-3 p-2 equal rounded-4"> <h2>=</h2> </i></button>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
